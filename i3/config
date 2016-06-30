@@ -157,6 +157,6 @@ bindsym --release Print exec scrot -s
 exec nm-applet
 exec telegram
 exec steam
-exec feh --bg-fill Downloads/punpun.jpg
+exec feh --bg-fill .wallpaper.jpg
 exec pulseaudio --start
 exec redshift -l 45.5231:-122.6765 -r
