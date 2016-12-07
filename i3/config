@@ -28,7 +28,7 @@ font -*-fixed-*-*-*-*-7-*-*-*-*-*-iso10646-*
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec xfce4-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -156,7 +156,8 @@ bindsym --release Print exec scrot -s
 
 exec nm-applet
 exec telegram
-exec steam
+exec xscreensaver
 exec feh --bg-fill .wallpaper.jpg
 exec pulseaudio --start
 exec redshift -l 45.5231:-122.6765 -r
+bindsym F4 exec "xscreensaver-command -lock"
